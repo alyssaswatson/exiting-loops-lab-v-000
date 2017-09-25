@@ -13,7 +13,7 @@ function keepGoing(array, changeValue, skipValue) {
   for (var i = 0, l = array.length; i < l ; i++ ) {
      if (array[i] === skipValue) {
        continue
-     } 
+     }
      array[i] = changeValue
    }
    return array
