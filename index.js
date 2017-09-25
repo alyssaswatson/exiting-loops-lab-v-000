@@ -17,7 +17,7 @@ function keepGoing(array, changeValue, skipValue) {
         break
      }
      array[i] = changeValue
-   } 
+   }
    return array
 }
 
